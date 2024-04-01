@@ -1,1 +1,86 @@
-pageEditor_ST1.html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<link rel="stylesheet" href="styles.css">
+<title>Meow Studying Effectively</title>
+
+<style>
+  body {
+    background: linear-gradient(135deg, rgb(173, 49, 255), rgb(47, 171, 209), rgb(24, 107, 231), rgb(213, 1, 255)); 
+    background-attachment: fixed; 
+    background-size: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  h1, h2 {
+    font-family: Broadway;
+    color: #333;
+    font-size: 40px;
+    margin: 0; /* Add this line to remove margin */
+  }
+  h3 {
+    color: #333;
+    font-size: 30px;
+    margin: 0;
+  }
+  p {
+    color: #000000;
+    font-size: 20px;
+  }
+  #splash-screen {
+    text-align: center; 
+  }
+  ul {
+    padding: 0; /* Remove default padding */
+    font-size: bold 50px;
+    color: #fff;
+  }
+  ul.inline-bullets {
+    list-style-type: none; /* Remove default bullet points */
+    padding: 0;
+}
+ul.inline-bullets li{
+  font-size: 25px;
+}
+ul.inline-bullets li {
+    display: inline; 
+    margin-right: 20px; /* Add some spacing between list items */
+    padding-left: 20px;
+    margin-right: 10px; /* Add some spacing between list items */
+}
+ul.inline-bullets li {
+  display: inline; /* Display list items inline */
+  margin-right: 80px
+}
+</style>
+</head>
+<body>
+<div id="splash-screen">
+  <br><br>
+  <h1 class="splashHeading">Meow</h1>
+  <h2>Studying Effectively</h2>
+  <br>
+  <p>Quality education</p>
+  <br><br>
+  <h3>Group Members</h3>
+  <br><br>
+  <ul class="inline-bullets">
+    <li>Artur</li>
+    <li>Florin-Leandru</li>
+    <li>Sau</li>
+    <li>Daniel</li>
+  </ul>
+  <img src="https://w1978643.users.ecs.westminster.ac.uk/meows/meow.gif" alt="MEOW GIF">
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.getElementById("splash-screen").style.display = "block";
+    
+    setTimeout(function() {
+     window.location.href = "https://w1996050.users.ecs.westminster.ac.uk/meows/homepage.html"; 
+    }, 6000);
+  });
+</script>
+</body>
+</html>
