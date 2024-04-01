@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Educational Focus Areas</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+ 
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 20px;
+        text-align: center;
+    }
+ 
+    nav {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #333;
+        padding: 10px 0;
+        text-align: center;
+        z-index: 999;
+    }
+ 
+    nav button {
+        margin: 5px;
+        padding: 10px 20px;
+        background: linear-gradient(135deg, rgb(173, 49, 255), rgb(47, 171, 209), rgb(24, 107, 231), rgb(213, 1, 255)); 
+        border: none;
+        color: white;
+        cursor: pointer;
+        border-radius: 5px;
+    }
+    section {
+        padding: 20px;
+        margin-top: 80px; /* Adjust margin to prevent content from being hidden under fixed navbar */
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    #goodEducation img,
+    #lifelongLearning img,
+    #Cur img,
+    #AaE img {
+        max-width: 40%; /* Adjust image size as needed */
+    }
+    #goodEducation {
+        width: 37%; 
+        margin: 0 auto; 
+    }
+    #lifelongLearning {
+        width: 37%; 
+        margin: 0 auto; 
+    }
+    #AaE {
+        width: 37%; 
+        margin: 0 auto; 
+    }
+    #Cur {
+        width: 37%; 
+        margin: 0 auto; 
+    }
+    
+    #GoTop {
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        background: linear-gradient(135deg, rgb(173, 49, 255), rgb(47, 171, 209), rgb(24, 107, 231), rgb(213, 1, 255)); 
+        color: white;
+        padding: 20px 40px;
+        border-radius: 5px;
+        display: none; 
+    }
+    #GoTop.show {
+        display: block; 
+    }
+</style>
+</head>
+<body>
+<br><br><br>
+<header>
+    <h1>Content Page Student 1</h1>
+</header>
+ 
+<nav>
+    <button onclick="scrollToSection('lifelongLearning')">Lifelong Learning</button>
+    <button onclick="scrollToSection('goodEducation')">Good Education</button>
+    <button onclick="scrollToSection('Cur')">Curriculum Design</button>
+    <button onclick="scrollToSection('AaE')">Assessing and Evaluation</button>
+</nav>
+ 
+<section id="lifelongLearning">
+    <div>
+        <h2>Lifelong Learning</h2>
+        <p>Having a good and quality education it’s NOT just about having good grades at 
+            school or successfully graduating from university. It is about learning all the time 
+            and enjoying learning new things. Here are the methods on how to build up the eagerness to 
+            learn new things. The best way to start is to build a habit of writing down things 
+            that you are interested in, but you don’t know much about. Also, when it comes to
+             education there are always small things that you don’t understand. By writing these 
+             down and spending time on the things you know that you DON`T KNOW. Will help you to
+              limit time to figuring out the things that you know and don’t. With this essential
+               habit you will become ERUDITE.</p>
+        <br>
+        <p>Erudite - having or showing GREAT knowledge about VAST topics and spheres.</p>
+    </div>
+    <img src="https://w1978643.users.ecs.westminster.ac.uk/meows/Lifelong.PNG" alt="img">
+</section>
+ 
+<section id="goodEducation">
+    <div>
+        <h2>Good Education</h2>
+        <p>It means students are involved in learning. To help, teachers and students to try a few new or well-forgotten things. Examples of a
+         good education is making sure to make the topic interactive and interesting to your extent. It is very important to know what interests 
+         you and what makes you passionate. In all subject modules and lessons will be things that drag your attention. </p>
+        <p> It is important to personalize your learning approach, so it's important to make your education environment welcoming and pleasant to spend time in. </p>
+        <p>If the group is involved in your education, make sure your group is having discussions or group activities to elevate motivation and engagement. By doing 
+        these things most of the students will get excited about any topic that they are learning and give them a good education.</p>
+    </div>
+    <img src="https://w1978643.users.ecs.westminster.ac.uk/meows/Capture.PNG" alt="img">
+</section>
+ 
+<section id="Cur">
+    <div>
+        <h2>Curriculum Design</h2>
+        <p>That is THE GREATEST attribute that you can have when it comes to studying and educating yourself. 
+            As you plan and build a habit to study all the time. In order to 
+            achieve such a valuable skill, you will have to:</p>
+        <ul>
+            <li>Have a schedule.</li>
+            <p>It is extremely important to plan out a specific time for your education. As it is
+                 not the easiest task to learn new things and 
+                new information. Therefore, by having a specific time that you cannot escape or 
+                find an excuse will help you to achieve your goals much easier.</p>
+            <li>Ways to reach the information.</li>
+            <p>You must find the places where you can find the information for your needs. Such as internet access, 
+                libraries, lecturers, and private lessons.</p>
+            <li>Technological learning</li>
+            <p>You can involve online learning via online audiobooks, etc.</p>
+        </ul>
+        <br>
+        <p>By involving such small but crucial steps you will see and feel the difference between having 
+            a scheduled time to learn and studying whenever you feel like it.</p>
+    </div>
+    <img src="https://w1978643.users.ecs.westminster.ac.uk/meows/planning.png" alt="img">
+</section>
+ 
+<section id="AaE">
+    <div>
+        <h2>Assessing and Evaluation</h2>
+        <p>Assessing and Evaluating your curriculum is one of the KEY attributes when it 
+            comes to quality education. To achieve such valuable skill, you need to 
+            follow these steps: </p>
+            <ul>
+            <li>Set clear goals</li>
+            <p>Make sure all your goals are written in short and simple sentences. It helps to 
+                be focused on the goal specifically and not to get 
+                confused during executing the given task.</p>
+            <li>Short-term goals are very important too!!!</li>
+            <p>You must have a “GLOBAL” goal. However, if you were to break down this goal into a couple of 
+                short goals, it's going to make your life much easier as you will be 
+                able to see your improvements after completing each short goal.</p>
+            <li>Get feedback</li>
+            <p>It is a very important attribute in improving your curriculum. As you will be able to see from 
+                different perspectives
+                the given task, plan, or whatever it may be.</p>
+            <li>Alter study methods. </li>
+            <p>There are occasions when there is only one way to achieve the specific task. But most of the time, 
+                if you feel stuck, bored or confused, you may change the method of approaching the task and most of 
+                the time it can help to speed up the process.</p>
+            <br>
+            <p>These features will help to reflect and learn from the mistakes and better your knowledge.</p>
+        </ul>
+    </div>
+    <img src="https://w1978643.users.ecs.westminster.ac.uk/meows/Evaluating.png" alt="img">
+</section>
+
+<button id="GoTop" onclick="goToTop()">Go to top</button>
+<script>
+    function scrollToSection(sectionId) {
+        var section = document.getElementById(sectionId);
+        if (section) {
+            section.scrollIntoView({ behavior: 'smooth' });
+        }
+    }
+    function goToTop() {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    window.onscroll = function() {
+        var scrollToTopButton = document.getElementById("GoTop");
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            scrollToTopButton.classList.add("show");
+        } else {
+            scrollToTopButton.classList.remove("show");
+        }
+    };
+</script>
+
+</body>
+</html>
